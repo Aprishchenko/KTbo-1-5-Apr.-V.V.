@@ -1,0 +1,8 @@
+int main ()
+{
+int x,y, min;
+scanf_s("%d" , &x);
+scanf_s("%d" , &y);
+min = x > y ? x : y;
+printf("%d" , min);
+}
